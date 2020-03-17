@@ -12,10 +12,11 @@ a:link, a:visited{
     text-decoration:none;
 } 
 .hd-menuline{
-    width:100%;
+    width:90%;
     height: 35px;
     text-align: right;
     padding: 5px;
+    padding-right: 10%;
     background-color: #f1f1f1;
 }
 .hd-menuline li{
