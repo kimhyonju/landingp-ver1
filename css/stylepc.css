@@ -49,12 +49,12 @@ nav {
     background-color: #fff;
 }
 nav ul{
-    width: 100%;
-    margin: 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 nav ul li{
     display: inline-block;
-    padding: 10px 17px;
+    padding: 10px 10px;
 }
 nav ul li p{
     font-size: 0.9em;
@@ -63,14 +63,10 @@ nav ul li p{
 .font-bold{
     font-weight: bold;
 }
-form{
+
+.sch-form{
     display: block;
     width: 170px;
-}
-.sch-form{
-    position: absolute;
-    right:5px;
-    top: 7px;
 }
 fieldset {
     background: transparent;
@@ -92,4 +88,7 @@ legend{
 fieldset img{
     width: 15px;
     height: 15px;
+}
+input:focus{
+    outline: none;
 }
