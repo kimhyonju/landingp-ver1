@@ -96,23 +96,35 @@ input:focus{
 #mainb{
     width: 100%;
     height: auto;
-    background-color: rgb(243, 218, 214);
+    background-color: #fbf6f0;
     padding: 20px 0px;
 }
+
+.main-p{
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 1.5em;
+    transform: skewY(8deg);
+}
 .main-ban{
-    width: 800px;
+    width: 1000px;
     height: 550px;
     margin: 50px auto;
     position: relative;
 }
 .main-ban img{
-    width: 800px;
+    width: 1000px;
 }
 .main-ban-spring{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin-left: -500px;
+    width: 700px;
+    margin: 20px auto;
+    transform: skewY(-8deg);
+    opacity: 0.8;
+}
+.main-ban-spring img{
+    width: 700px;
 }
 .main-item{
     width: 100%;
