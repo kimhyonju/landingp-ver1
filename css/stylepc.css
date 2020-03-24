@@ -93,3 +93,39 @@ fieldset img{
 input:focus{
     outline: none;
 }
+#mainb{
+    width: 100%;
+    height: auto;
+    background-color: rgb(243, 218, 214);
+    padding: 20px 0px;
+}
+.main-ban{
+    width: 800px;
+    height: 550px;
+    margin: 50px auto;
+    position: relative;
+}
+.main-ban img{
+    width: 800px;
+}
+.main-ban-spring{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -500px;
+}
+.main-item{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.main-item ul{
+    display: block;
+    max-width: 1000px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px 0px;
+    background-color: #afacac;
+}
