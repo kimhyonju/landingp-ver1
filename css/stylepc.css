@@ -33,9 +33,9 @@ a:link, a:visited{
     background-color: #f1f1f1;
 }
 .hd-titlep{
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: 7px;
     color: #000000;
     width: 200px;
     margin: 0px auto;
@@ -55,7 +55,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    padding: 10px 10px;
+    margin: 10px 10px;
 }
 nav ul li p{
     font-size: 0.9em;
@@ -64,10 +64,29 @@ nav ul li p{
 .font-bold{
     font-weight: bold;
 }
-
 .sch-form{
     display: block;
     width: 170px;
+}
+.nav-lineright:after{
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #000;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    margin: auto 10px;
+}
+.nav-lineleft:before{
+    content: "";
+    width: 1px;
+    height: 12px;
+    background: #000;
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    margin: auto -10px;
 }
 fieldset {
     background: transparent;
@@ -99,32 +118,38 @@ input:focus{
     background-color: #fbf6f0;
     padding: 20px 0px;
 }
-
+.main-ban-spring{
+    width: 1000px;
+    margin: 80px auto 100px;
+    position: relative;
+}
+.main-bp{
+    display: block;
+    width: 1000px;
+    font-size: 5em;
+    color: #f2cddc;
+    letter-spacing: 5px;
+    text-align: center;
+}
 .main-p{
     display: block;
     position: absolute;
-    top: 25%;
-    left: 15%;
-    font-size: 1.5em;
-    transform: skewY(8deg);
+    top: 5%;
+    left: 65%;
+    font-size: 1em;
+    color: #5a70e2;
+    letter-spacing: 3px;
 }
 .main-ban{
     width: 1000px;
-    height: 550px;
     margin: 50px auto;
     position: relative;
 }
+
 .main-ban img{
     width: 1000px;
-}
-.main-ban-spring{
-    width: 700px;
-    margin: 20px auto;
-    transform: skewY(-8deg);
-    opacity: 0.8;
-}
-.main-ban-spring img{
-    width: 700px;
+    height: 550px;
+    margin-bottom: 30px;
 }
 .main-item{
     width: 100%;
@@ -135,9 +160,20 @@ input:focus{
 }
 .main-item ul{
     display: block;
-    max-width: 1000px;
-    height: 400px;
+    max-width: 1200px;
     margin: 20px auto;
-    padding: 20px 0px;
+    padding: 100px 0px;
     background-color: #afacac;
+}
+.main-item ul li{
+    display: inline-block;
+    width: 390px;
+    margin: 0 3px;
+}
+.main-item ul li img{
+    width: 350px;
+}
+.thum-area{
+    width: 350px;
+    margin: 0 auto;
 }
