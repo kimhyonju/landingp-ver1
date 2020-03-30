@@ -204,22 +204,44 @@ input:focus{
     position: relative;
     background-color: #f1f1f1;
 }
-.main-item ul{
+.main-item>ul{
     display: block;
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px 0px;
     background-color: #afacac;
 }
-.main-item ul li{
+.main-item > ul li{
     display: inline-block;
     width: 390px;
     margin: 0 3px;
 }
-.main-item ul li img{
+.main-item > ul li img{
     width: 350px;
 }
 .thum-area{
     width: 350px;
     margin: 0 auto;
+    position: relative;
+}
+.thum-color{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: -10px;
+}
+.thum-color > ul{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+.thum-color > ul > li{
+    display: inline-block;
+    width: 20px;
+    height: 3px;
+    border: 1px solid #f1f1f1;
+    margin-right: -2px;
+}
+.color-box-blue{
+    background-color: cadetblue;
 }
