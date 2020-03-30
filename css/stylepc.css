@@ -208,7 +208,7 @@ input:focus{
     display: block;
     max-width: 1200px;
     margin: 20px auto;
-    padding: 100px 0px;
+    padding: 10px 0px;
     background-color: #afacac;
 }
 .main-item ul li{
