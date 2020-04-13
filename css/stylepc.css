@@ -306,10 +306,80 @@ input:focus{
     font-size: 0.8em;
     background-color: #c40202;
 } 
+/* footer shoping-info start */
+footer{
+    width: 100%;
+    height: auto;
+}
+.shoping-info{
+    width: 100%;
+    height: auto;
+    background-color: #f9f9f9;
+}
+.infomation{
+    max-width: 1200px;
+    height: auto;
+    padding: 10px 30px;
+}
+.company{
+    width: 24%;
+    display: inline-block;
+}
+.com-title{
+    display: block;
+    padding: 10px 0;
+}
+.com-title > p{
+    font-size:1em;
+    color: #000;
+}
+.com-sub {
+    display: block;
+}
+.com-sub > ul{
+    width: 100%;
+}
+.com-sub > ul > li{
+    width: 48%;
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+}
+.com-sub > ul > li > a > p{
+    font-size: 0.8em;
+    color: rgb(107, 107, 107);
+}
 
-
-
-
+.costume{
+    width: 24%;
+    display: inline-block;
+}
+.cos-title{
+    display: block;
+    padding: 10px 0;
+}
+.cos-title > p{
+    font-size:1em;
+    color: #000;
+}
+.cos-sub {
+    display: block;
+}
+.cos-sub > ul{
+    width: 100%;
+}
+.cos-sub > ul > li{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.cos-sub > ul > li > a > p{
+    font-size: 0.8em;
+    color: rgb(107, 107, 107);
+}
+.cos-sub > ul > li > a > p > span{
+    font-size: 1.2em;
+}
 
 
 /*color chip*/
