@@ -5,12 +5,14 @@
 }
 body{
 	margin:0;
-	padding:0;
+    padding:0;
+    
     }   
 a:link, a:visited{
     color:#fff;
     text-decoration:none;
 } 
+/* header start */
 .hd-menuline{
     width:90%;
     height: 35px;
@@ -41,6 +43,7 @@ a:link, a:visited{
     margin: 0px auto;
     padding: 30px;
 }
+/* header nav start */
 nav {
     position: relative;
     width:100%;
@@ -112,6 +115,7 @@ fieldset img{
 input:focus{
     outline: none;
 }
+/* main banner start */
 #mainb{
     width: 100%;
     height: auto;
@@ -164,6 +168,7 @@ input:focus{
     display: block;
     margin-top: -10px;
 }
+/* sub menu start */
 .sub-menubar{
     width: 100%;
     height: auto;
@@ -185,6 +190,7 @@ input:focus{
     color:#8b8b8b;
     font-size: 0.8em;
 }
+/* solt menu start */
 .sort-menubar{
     width: 100%;
     height: auto;
@@ -210,6 +216,7 @@ input:focus{
     color:#c40202;
     font-weight: 600;
 }
+/* main item list start */
 .main-item{
     width: 100%;
     height: auto;
