@@ -17,7 +17,6 @@ a:link, a:visited{
     width:90%;
     height: 35px;
     text-align: right;
-    padding: 5px;
     padding-right: 10%;
     background-color: #faf9f9;
 }
@@ -145,7 +144,7 @@ input:focus{
     letter-spacing: 3px;
 }
 .main-ban{
-    width: 1200px;
+    max-width: 1200px;
     height: 550px;
     margin: 50px auto;
     position: relative;
@@ -315,29 +314,36 @@ footer{
     width: 100%;
     height: auto;
     background-color: #f9f9f9;
+    margin-top: 100px;
 }
 .infomation{
     max-width: 1200px;
-    height: auto;
+    height: 300px;
     padding: 10px 30px;
+    margin: 10px auto;
 }
+#info-box{
+    width: 25%;
+    height: 150px;
+    float: left;
+    padding-top: 70px;
+}
+/* INFO */
 .company{
-    width: 24%;
     display: inline-block;
 }
-.com-title{
-    display: block;
-    padding: 10px 0;
-}
-.com-title > p{
-    font-size:1em;
+.company > h2{
+    font-size: 0.8em;
     color: #000;
+    letter-spacing: 1.5px;
 }
 .com-sub {
     display: block;
+    position: relative;
 }
 .com-sub > ul{
     width: 100%;
+    padding-top: 6px;
 }
 .com-sub > ul > li{
     width: 48%;
@@ -349,21 +355,18 @@ footer{
     font-size: 0.8em;
     color: rgb(107, 107, 107);
 }
-
+/* お問い合わせ　*/
 .costume{
-    width: 24%;
     display: inline-block;
 }
-.cos-title{
-    display: block;
-    padding: 10px 0;
-}
-.cos-title > p{
-    font-size:1em;
+.costume > h2{
+    font-size: 0.8em;
     color: #000;
+    letter-spacing: 1.5px;
 }
 .cos-sub {
     display: block;
+    position: relative;
 }
 .cos-sub > ul{
     width: 100%;
@@ -372,14 +375,93 @@ footer{
     display: block;
     text-align: left;
     text-decoration: none;
+    padding-top: 6px;
 }
 .cos-sub > ul > li > a > p{
     font-size: 0.8em;
     color: rgb(107, 107, 107);
 }
 .cos-sub > ul > li > a > p > span{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
+/* 銀行情報　*/
+.bankinfo{
+    display: inline-block;
+}
+.bankinfo > h2{
+    font-size: 0.8em;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+.bank-sub > ul{
+    width: 100%;
+}
+.bank-sub > ul > li{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 6px;
+}
+.bank-sub > ul > li > a > p{
+    font-size: 0.8em;
+    color: rgb(107, 107, 107);
+}
+/* SNS情報　*/
+.snsinfo{
+    display: inline-block;
+}
+.snsinfo > h2{
+    font-size: 0.8em;
+    color: #000;
+    letter-spacing: 1.5px;
+    padding-left: 10px;
+}
+.sns-sub > ul{
+    width: 100%;
+    padding-top: 6px;
+}
+.sns-sub > ul > li{
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 6px;
+}
+.sns-sub > ul > li > a > img{
+    width: 50px;
+}
+/*会社の情報*/
+.company-add{
+    width: 100%;
+    height: auto;
+    background-color: #e1e1e1;
+    margin-top: -10px;
+}
+.kaisha-info{
+    max-width: 1200px;
+    height: 200px;
+    padding: 70px 30px 10px;
+    margin: 0px auto;
+}
+.kaisha-info > h2{
+    font-size: 0.8em;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+.kaisha-sub > ul{
+    width: 100%;
+}
+.kaisha-sub > ul > li{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 6px;
+}
+.kaisha-sub > ul > li > p{
+    font-size: 0.8em;
+    color: #4d4b4b;;
+}
+
+
 
 
 /*color chip*/
